@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "incremental": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsxImportSource": "@emotion/react"
+  },
+  "include": [
+    "typings/*.d.ts",
+    "**/*.ts",
+    "pages/api/*.ts",
+    "pages/*.tsx",
+    "pages/*.jsx",
+    "components/*.tsx",
+    "components/*.jsx",
+    "postcss.config.ts",
+    "tailwind.config.ts",
+    "next.config.js"
+  ],
+  "exclude": ["node_modules"]
+}
