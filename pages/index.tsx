@@ -20,13 +20,13 @@ const BlobContainer = styled.div`
     0% {
       transform: scale(1) translate(-20vw, -30vh) rotate(50deg);
     }
-    38% {
+    39% {
       transform: scale(0.8, 1) translate(80vw, 30vh) rotate(180deg);
     }
     40% {
       transform: scale(0.8, 1) translate(80vw, 30vh) rotate(180deg);
     }
-    78% {
+    79% {
       transform: scale(1.3) translate(10vw, 60vh) rotate(-20deg);
     }
     80% {
@@ -55,7 +55,7 @@ const Anchor = ({
   ...rest
 }: React.DetailedHTMLProps<React.LinkHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>) => (
   <a
-    tw="text-red-500 hover:text-blue-800 blend-color-dodge hover:blend-soft-light font-ns font-bold mx-2 px-6 md:px-8 py-2.5 border-4 border-red-500 hover:border-blue-800 transition-colors"
+    tw="text-red-500 hover:text-blue-800 blend-color-dodge hover:blend-soft-light font-ns font-bold mt-4 mx-2 px-6 md:px-8 py-2.5 border-4 border-red-500 hover:border-blue-800 transition-colors"
     target="_blank"
     {...rest}
   >
@@ -72,12 +72,12 @@ export default function Home() {
       </Head>
       <Blob />
       <OverlappingHeading>{HOME_LABEL}</OverlappingHeading>
-      <div tw="flex w-full justify-center mt-4">
-        <Anchor href="https://www.youtube.com/channel/UCI3L5wHwcpz3jT6KeHfqxFg">
-          Youtube
-        </Anchor>
+      <div tw="flex w-full flex-wrap justify-center">
+        <Anchor href="https://www.youtube.com/channel/UCI3L5wHwcpz3jT6KeHfqxFg">Youtube</Anchor>
         <Anchor href="https://www.facebook.com/radiobubbu">Facebook</Anchor>
         <Anchor href="https://www.instagram.com/radiobubbu/">Instagram</Anchor>
+        <Anchor href="https://www.twitch.tv/radio_bubbu">Twitch.tv</Anchor>
+        <Anchor href="https://t.me/radio_bubbu">Telegram</Anchor>
       </div>
     </div>
   );
