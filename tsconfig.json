@@ -32,8 +32,8 @@
     "pages/*.jsx",
     "components/*.tsx",
     "components/*.jsx",
-    "postcss.config.ts",
-    "tailwind.config.ts",
+    "postcss.config.js",
+    "tailwind.config.js",
     "next.config.js"
   ],
   "exclude": ["node_modules"]

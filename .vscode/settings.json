@@ -1,3 +1,6 @@
 {
-  "css.customData": [".vscode/cssCustomData.json"]
+  "css.customData": [
+    ".vscode/cssCustomData.json"
+  ],
+  "tailwindcss.references": false
 }
