@@ -26,5 +26,5 @@ module.exports = {
   variants: {
     extend: {}
   },
-  plugins: [tailwindBlendModePlugin()]
+  plugins: [tailwindBlendModePlugin()] // twin.macro can't build mix-blend somehow
 };
