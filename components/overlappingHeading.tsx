@@ -3,7 +3,7 @@ import tw, { styled } from 'twin.macro';
 import { ChildrenProps, DirectionProps } from 'types/base';
 
 const OverlappingHeadingStyled = styled.h1<DirectionProps>`
-  ${tw`text-9xl text-red-500 font-ms italic tracking-tighter blend-color-dodge`}
+  ${tw`text-8xl md:text-9xl text-center text-red-500 font-ms italic tracking-tighter blend-color-dodge`}
 `;
 
 const OverlappingHeading = ({ direction = 'horizontal', children }: DirectionProps & ChildrenProps) => (

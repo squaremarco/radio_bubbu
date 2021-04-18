@@ -9,7 +9,7 @@ export default function About() {
     <div>
       <Head>
         <title>{ABOUT_LABEL}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <OverlappingHeading>{ABOUT_LABEL}</OverlappingHeading>
