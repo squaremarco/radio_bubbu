@@ -11,7 +11,6 @@
     "outDir": "./dist",
     "jsx": "preserve",
     "baseUrl": "./",
-    "incremental": true,
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
